@@ -132,7 +132,7 @@ To create and deploy the _TMS Content_ service, in the **project root** folder:
 
 *   Create the _TMS Content_ service:
 
-        copilot svc init --name content --svc-type "Backend Service" --dockerfile modules/content/Dockerfile 
+        copilot svc init --name content --svc-type "Backend Service" --dockerfile modules/content/Dockerfile
 
 *   Deploy the _TMS Content_ service:
 
