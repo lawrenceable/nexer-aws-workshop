@@ -11,6 +11,10 @@ routes.post('/content', (req, res) => {
     res.send('OK');
 });
 
+routes.get('/healthz', (req, res) => {
+    res.send('OK');
+});
+
 // ...
 
 module.exports = routes;
